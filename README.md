@@ -1,6 +1,6 @@
 # FriendScrobbler for Last.fm
 
-FriendScrobber is a node.js application that scrobbles songs simultaneously from one Last.fm account to another. This app is beyound perfection, feel free to fork and improve it. 
+FriendScrobber is a node.js application that scrobbles songs simultaneously from one Last.fm account to another. This app is beyond perfection, feel free to fork and improve it. 
 
 ## How to install
 
