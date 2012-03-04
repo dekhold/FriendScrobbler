@@ -1,0 +1,3 @@
+# FriendScrobbler for Last.fm
+
+ 
