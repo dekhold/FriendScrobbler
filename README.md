@@ -8,7 +8,7 @@ FriendScrobber is a node.js application that scrobbles songs simultaneously from
 
 1. Assuming you already have node.js, npm, and redis, run:
 
-        $ git clone https://github.com/denisu/friendscrobblergit
+        $ git clone https://github.com/denisu/friendscrobbler.git
         $ cd friendscrobbler
 
 2. Install the dependencies using npm:
