@@ -17,7 +17,7 @@ FriendScrobber is a node.js application that scrobbles songs simultaneously from
 
 3. Launch the web server
 
-	$ node subway
+	$ node server.js 
 
 4. Point your browser to `http://localhost:8374/`
 
