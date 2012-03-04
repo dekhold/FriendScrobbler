@@ -1,0 +1,10 @@
+{
+  "name": "friendscrobbler",
+  "version": "0.2.0",
+  "dependencies": {
+    "connect-redis": "1.2.x",
+    "jade": "0.20.x",
+    "express ": "2.5.x",
+    "lastfm ": "0.8.x"
+  }
+}

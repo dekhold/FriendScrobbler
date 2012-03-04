@@ -1,0 +1,17 @@
+script(type='text/javascript') $(document).ready(function() { bind_form() });
+fieldset
+	form(action='/auth', method='post')
+		p.error
+		p
+			label#label_fromuser(for='fromuser') scrobble same tracks like
+			input#fromuser(name='fromuser', value= fromuser)
+		p.nfo Please enter the Last.fm username of the person who is playing the music.
+		br
+		- if (user) {
+			p.submit
+				input.start(type='submit', value='start scrobbling')
+			p.auth Authorized as #{user} (<a href="/de-auth">de-auth</a>).
+		- } else {
+			p.submit
+				input.start(type='submit', value='authorize and start scrobbling')
+		- }

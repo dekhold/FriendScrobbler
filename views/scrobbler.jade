@@ -1,0 +1,23 @@
+fieldset
+	div#scrobbler
+		div#now_playing
+			sub #{fromuser} is currently playing:<br><br>
+			span#now_playing_song
+			br
+			br
+			span#scrobble_countdown
+				sub This track will be scrobbled in about <span id="countdown">50</span> seconds to your account (#{user}).
+			span#scrobble_request
+				sub Setting now-playing status and requesting track duration...
+			span#scrobbling
+				sub Submitting track...
+			span#scrobbled
+				sub Track successfully scrobbled (#{user}). Waiting for the next one...
+		div#not_playing
+			p #{fromuser} is currently not listening to music.
+			sub Scrobbling will start automatically as soon as #{fromuser} started to play music.
+		div#loading loading...
+	form(action='/', method='get')
+		p.submit
+			input.stop(type='submit', value='stop scrobbling')
+	script $(document).ready(function() { setInterval("scrobbler('#{fromuser}')", 10000); scrobbler('#{fromuser}'); });
