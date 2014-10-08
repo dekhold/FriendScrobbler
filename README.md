@@ -25,7 +25,7 @@ FriendScrobber is a node.js application that scrobbles songs simultaneously from
 
 (The MIT License)
 
-Copyright (c) 2012 Dennis Kort &lt;mail@denisu.jp&gt;
+Copyright (c) 2012 Dennis Kort
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
